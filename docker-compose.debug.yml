@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  flashloanarbitrage:
+    image: flashloanarbitrage
+    build:
+      context: .
+      dockerfile: ./Dockerfile

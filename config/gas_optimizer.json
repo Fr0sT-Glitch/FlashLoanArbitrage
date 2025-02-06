@@ -1,0 +1,10 @@
+{
+    "dynamic_gas": true,
+    "max_gas_price": 100, 
+    "min_gas_price": 20,
+    "target_gas_price": 50,
+    "gas_limit": 3000000,
+    "adjustment_interval": 60,
+    "gas_priority_fee": 2,
+    "gas_estimation_buffer": 10
+}

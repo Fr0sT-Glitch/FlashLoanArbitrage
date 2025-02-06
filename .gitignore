@@ -1,0 +1,39 @@
+# Ignore Python bytecode and compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore environment variables file
+.env
+
+# Ignore dependency folders
+node_modules/
+venv/
+
+# Ignore compiled models and datasets
+models/*.pkl
+models/*.h5
+
+# Ignore log files and cache
+logs/
+*.log
+
+# Ignore Docker build files
+dist/
+*.tar
+
+# Ignore frontend build files
+frontend/build/
+frontend/.cache/
+
+# Ignore VSCode and editor configurations
+.vscode/
+.idea/
+.DS_Store
+
+# Ignore test coverage reports
+coverage/
+*.cover
+*.coverage
+nosetests.xml
+coverage.xml
