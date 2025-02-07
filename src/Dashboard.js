@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card } from "./components/ui/Card";
 import { ethers } from "ethers";
 
 const Dashboard = () => {

@@ -1,9 +1,10 @@
 from web3 import Web3
 import json
+import sys
 import os
 import time
 from dotenv import load_dotenv
-from dex_scanner import DEXScanner
+from backend.dex_scanner import DEXScanner  
 from flashloan_executor import FlashloanExecutor
 from risk_manager import RiskManager
 

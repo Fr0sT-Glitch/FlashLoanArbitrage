@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import Dashboard from "./Dashboard";
-import TradeHistory from "./TradeHistory";
-import RiskSettings from "./RiskSettings";
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+import TradeHistory from "./components/TradeHistory";
+import RiskSettings from "./components/RiskSettings";
+import { Card } from "./components/ui/Card";
+import { Button } from "./components/ui/Button";
 import { ethers } from "ethers";
 
 const App = () => {
