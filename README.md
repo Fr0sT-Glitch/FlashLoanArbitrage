@@ -15,7 +15,7 @@ This project is an arbitrage trading bot that utilizes flash loans to execute pr
 
 ### 1. Clone the Repository
 ```sh
-git clone https://github.com/YourRepo/HybridArbitrageBot.git
+git clone https://github.com/Fr0sT-Glitch/FlashLoanArbitrage.git
 cd HybridArbitrageBot
 ```
 
